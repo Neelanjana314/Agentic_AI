@@ -1,27 +1,36 @@
-# Agents
+# Agentic AI
+
+Multi-agent systems built with **CrewAI** and **LangChain/LangGraph**.
+
+| Framework | Folder | Status |
+|---|---|---|
+| CrewAI | `agents_crewai/` | Beginner, Intermediate, Advanced |
+| LangChain/LangGraph | `agents_lang/` | Beginner (Intermediate & Advanced coming soon) |
+
+---
 
 ## Curriculum:
 
 ### 1. Beginner
-**Agent Name**: Hate Speech Detection Agent. 
-  
+**Agent Name**: Hate Speech Detection Agent.
+
 **Learning Objectives**:
-- Learn to build a simple single agent system with CrewAI.
-- Understand the basic syntax of CrewAI.
-- Understand the usage of `OpenRouter API` for LLM calls. 
-  
+- Learn to build a simple single agent system.
+- Understand the basic syntax of CrewAI and LangChain.
+- Understand the usage of `OpenRouter API` for LLM calls.
+
 **Examples Set**:
 - Content Writer Agent
 - Code Reviewer Agent
 - Customer Support Agent
-  
+
 ---
-  
+
 ### 2. Intermediate
 **Agent Name**: DevOps Engineer Agent.
-  
+
 **Learning Objectives**:
-- Learn to build a sequential multi-agent system with CrewAI.
+- Learn to build a sequential multi-agent system.
 - `Context` passing between agents
 - `System Prompt` for AI Agents
 - `InBuilt Tool` usage in CrewAI
@@ -32,17 +41,17 @@ Learn to more usecases of inbuilt tools in CrewAI
 - Image Generation Tool
 - Code Interpreter Tool
 - AWS S3 Cloud Storage Tool
-  
+
 ---
-  
+
 ### 3. Advanced
 **Agent Name**: Investment Advisor AI Agent
-  
+
 **Learning Objectives**:
-- Learn to build a parallel multi-agent system with CrewAI.
+- Learn to build a parallel multi-agent system.
 - Understand how to run agents in `parallel`.
-- Learn to create and use `custom tools` in CrewAI.
-  
+- Learn to create and use `custom tools`.
+
 **Examples Set**:
 - Currency Converter Custom Tool
 - CSV Data Parser Custom Tool
